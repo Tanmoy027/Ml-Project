@@ -1,0 +1,38 @@
+Vulnerability Detection Dataset Preprocessing Summary
+==============================================
+
+Original dataset size: 153204 samples
+After duplicate removal: 153204 samples
+
+Class distribution:
+  - Vulnerable: 8841 (5.77%)
+  - Non-vulnerable: 144363 (94.23%)
+
+Dataset splits:
+  - Train set: 107242 samples (6189 vulnerable, 5.77%)
+  - Val set: 22981 samples (1326 vulnerable, 5.77%)
+  - Test set: 22981 samples (1326 vulnerable, 5.77%)
+
+Features extracted:
+  - score
+  - complexity
+  - code_length
+  - token_count
+  - add_lines
+  - del_lines
+  - has_pointers
+  - has_arrays
+  - has_memory_funcs
+
+Files generated:
+  - all_features.csv: 4005.18 KB
+  - duplicate_removal.txt: 0.17 KB
+  - initial_cleaned_data.csv: 341388.32 KB
+  - preprocessing_summary.txt: 0.00 KB
+  - test_features.csv: 601.06 KB
+  - test_tokens.pkl: 8992.27 KB
+  - token_stats.txt: 0.13 KB
+  - train_features.csv: 2803.62 KB
+  - train_tokens.pkl: 41316.71 KB
+  - val_features.csv: 600.71 KB
+  - val_tokens.pkl: 8772.54 KB

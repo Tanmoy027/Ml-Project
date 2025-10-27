@@ -1,0 +1,8 @@
+Token Length Statistics
+=====================
+
+min: 5
+max: 35002
+mean: 164.27298076719185
+median: 76.0
+std: 410.2163591894723

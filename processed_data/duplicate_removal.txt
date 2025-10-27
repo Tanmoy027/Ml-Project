@@ -1,0 +1,7 @@
+Duplicate Removal Statistics
+===========================
+
+Initial samples: 188636
+After duplicate removal: 153204
+Duplicates removed: 35432
+Percentage removed: 18.78%
